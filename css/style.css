@@ -101,6 +101,7 @@ nav {
   opacity: 0.9;
   background-color: var(--btn-text-color);
   border: 1px solid var(--btn-color);
+  color: var(--btn-color);
 }
 
 /* Banner Section */
@@ -159,6 +160,14 @@ nav {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 4px;
+  box-shadow: -7px 8px 5px rgba(0, 0, 0, 0.15);
+}
+.btn1:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+  background-color: var(--btn-text-color);
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
 }
 .social-icon {
   display: flex;
