@@ -43,9 +43,7 @@ ul {
 }
 
 /* Header Section */
-header {
-  position: relative;
-}
+
 .nav-logo {
   max-width: 198px;
   min-height: 55px;
@@ -132,9 +130,7 @@ nav {
   /* text-align: center; */
   /* padding-top: 170px; */
 }
-.banner-content {
-  position: relative;
-}
+
 .banner-content > p {
   font-family: "Inter", sans-serif;
   margin-top: 50px;
