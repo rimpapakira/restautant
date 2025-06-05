@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- css link -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Swiper css -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-
+    <!-- Font Awesome CND -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -17,10 +19,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- AOS cnd -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- Header Section -->
-    <header>
+    <header data-aos="fade-down">
       <div class="container">
         <nav>
           <a href="/" class="nav-logo"
@@ -48,20 +52,20 @@
         <div class="row">
         <div class="col-6">
           <div class=" banner-content">
-            <h1 class="heading">We provide the <br />best food for you</h1>
-            <div class="res-img">
+            <h1 class="heading" data-aos="zoom-out-right">We provide the <br />best food for you</h1>
+            <div class="res-img" data-aos="fade-left">
               <img src="./assets/res-frame.png" alt="" />
             </div>
-            <p>
+            <p data-aos="fade-right">
               Lorem ipsum dolor sit amet, consectetur adipiscing <br />elit, sed
               do eiusmod tempor incididunt ut <br />labore et dolore magna
               aliqua
             </p>
-            <div class="banner-btn">
+            <div class="banner-btn" data-aos="zoom-in">
               <a href="" class="btn1">Menu</a>
               <a href="" class="btn">Book a table</a>
             </div>
-            <div class="social-icon">
+            <div class="social-icon" data-aos="zoom-out-right">
               <a href="" class="icon"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
@@ -72,7 +76,7 @@
           </div>
         </div>
           <div class="col-6">
-            <div class="banner-img">
+            <div class="banner-img" data-aos="fade-up-left">
             <div class="img2">
               <img src="./assets/Frame.png" alt="" />
             </div>
@@ -91,8 +95,8 @@
         <div class="row">
           <div>
             <div class="dishes-header">
-              <h2>Our Special Dishes</h2>
-              <p>
+              <h2 data-aos="zoom-in-up">Our Special Dishes</h2>
+              <p data-aos="fade-right">
                 Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit,
                 sed do eiusmod tempor incididunt
               </p>
@@ -101,7 +105,8 @@
                 <img src="./assets/Group1.png" alt="" />
               </div>
             </div>
-            <div class="dishes-container">
+            <div class="dishes-container" data-aos="fade-up"
+     data-aos-duration="3000">
               <div class="img3">
                 <img src="./assets/Group3.png" alt="" />
               </div>
@@ -112,8 +117,8 @@
                   <span class="price">$12</span>
                 </div>
                 <div class="card-cont">
-                  <h3>Lumpia with Sauce</h3>
-                  <p>
+                  <h3 data-aos="zoom-in-up">Lumpia with Sauce</h3>
+                  <p data-aos="fade-right">
                     Lorem ipsum dolor sit , consectetur adipiscing elit, sed do
                     eiusmod tempor
                   </p>
@@ -127,8 +132,8 @@
                   <span class="price">$12</span>
                 </div>
                 <div class="card-cont">
-                  <h3>Fish and Veggie</h3>
-                  <p>
+                  <h3 data-aos="zoom-in-up">Fish and Veggie</h3>
+                  <p data-aos="fade-right">
                     Lorem ipsum dolor sit, consectetur adipiscing elit, sed do
                     eiusmod tempor
                   </p>
@@ -143,8 +148,8 @@
                   <span class="price">$12</span>
                 </div>
                 <div class="card-cont">
-                  <h3>Tofu Chili</h3>
-                  <p>
+                  <h3 data-aos="zoom-in-up">Tofu Chili</h3>
+                  <p data-aos="fade-right">
                     Lorem ipsum dolor sit, consectetur adipiscing elit, sed do
                     eiusmod tempor
                   </p>
@@ -158,8 +163,8 @@
                   <span class="price">$12</span>
                 </div>
                 <div class="card-cont">
-                  <h3>Egg and Cucumber</h3>
-                  <p>
+                  <h3 data-aos="zoom-in-up">Egg and Cucumber</h3>
+                  <p data-aos="fade-right">
                     Lorem ipsum dolor sit, consectetur adipiscing elit, sed do
                     eiusmod tempor
                   </p>
@@ -179,10 +184,10 @@
             </div>
             <div class="wel-content">
               <div class="col-6t">
-                <div class="res-img1">
+                <div class="res-img1" data-aos="fade-up-right">
                 <img src="./assets/res-img2.png" alt="" />
               </div>
-              <div class="wel-image">
+              <div class="wel-image" data-aos="fade-up-right">
                 <img src="./assets/dish-2.png" alt="" />
                 <img src="./assets/leaf-lm.png" class="leaf leaf1" alt="" />
                 <img src="./assets/leaf-lb.png" class="leaf leaf2" alt="" />
@@ -192,12 +197,12 @@
               </div>
               <div class="col-4">
                 <div class="wel-text">
-                <h2>Welcome to Our <br />Restaurant</h2>
-                <p>
+                <h2 data-aos="fade-left">Welcome to Our <br />Restaurant</h2>
+                <p data-aos="fade-right">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <div class="banner-btn">
+                <div class="banner-btn" data-aos="zoom-in">
                   <a href="#" class="btn1">Menu</a>
                   <a href="#" class="btn">Book a table</a>
                 </div>
@@ -226,13 +231,13 @@
             </div>
             <div class="col-6">
               <div class="chef-contant">
-              <h2>Our Expects Chef</h2>
-              <p>
+              <h2 data-aos="fade-right">Our Expects Chef</h2>
+              <p data-aos="fade-right">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
 
-              <ul class="chef-list">
+              <ul class="chef-list" data-aos="fade-right">
                 <li>
                   <i class="fa-solid fa-circle-check"></i>Lorem ipsum dolor sit
                   amet, consectetur
@@ -258,14 +263,14 @@
                   amet, consectetur
                 </li>
               </ul>
-              <div class="banner-btn">
+              <div class="banner-btn" data-aos="zoom-in">
                 <a class="btn1" href="">Manu</a>
                 <a class="btn" href="">Book the table</a>
               </div>
             </div>
             </div>
             <div class="col-6">
-              <div class="chef-img">
+              <div class="chef-img" data-aos="fade-up-left">
               <img src="./assets/chef.png" alt="" />
             </div>
             </div>
@@ -278,8 +283,8 @@
       <div class="img10"><img src="./assets/9.png" alt="" /></div>
       <div>
         <div class="contant">
-          <h2>Our Happy Customers</h2>
-          <p>
+          <h2 data-aos="zoom-in-up">Our Happy Customers</h2>
+          <p data-aos="fade-right">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt
           </p>
@@ -298,14 +303,14 @@
                   <div title="text" for="star2"></div>
                   <div title="text" for="star1"></div>
                 </div>
-                <p class="customer-review">
+                <p class="customer-review" data-aos="fade-right">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
                   sunt officia alias placeat hic repudiandae! Nihil non facere,
                   cum earum aut accusantium voluptatum officia vero maxime harum
                   est vel cupiditate?
                 </p>
-                <h4>Ama Ampomah</h4>
-                <div class="customer-pst">CEO & FOUNDER Inc</div>
+                <h4 data-aos="zoom-out">Ama Ampomah</h4>
+                <div class="customer-pst" data-aos="zoom-out">CEO & FOUNDER Inc</div>
               </div>
             </div>
             <div class="swiper-slide">
@@ -320,14 +325,14 @@
                   <div title="text" for="star2"></div>
                   <div title="text" for="star1"></div>
                 </div>
-                <p class="customer-review">
+                <p class="customer-review" data-aos="fade-right">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
                   sunt officia alias placeat hic repudiandae! Nihil non facere,
                   cum earum aut accusantium voluptatum officia vero maxime harum
                   est vel cupiditate?
                 </p>
-                <h4>Ama Ampomah</h4>
-                <div class="customer-pst">CEO & FOUNDER Inc</div>
+                <h4 data-aos="zoom-out">Ama Ampomah</h4>
+                <div class="customer-pst" data-aos="zoom-out">CEO & FOUNDER Inc</div>
               </div>
             </div>
             <div class="swiper-slide">
@@ -342,14 +347,14 @@
                   <div title="text" for="star2"></div>
                   <div title="text" for="star1"></div>
                 </div>
-                <p class="customer-review">
+                <p class="customer-review" data-aos="fade-right">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
                   sunt officia alias placeat hic repudiandae! Nihil non facere,
                   cum earum aut accusantium voluptatum officia vero maxime harum
                   est vel cupiditate?
                 </p>
-                <h4>Ama Ampomah</h4>
-                <div class="customer-pst">CEO & FOUNDER Inc</div>
+                <h4 data-aos="zoom-out">Ama Ampomah</h4>
+                <div class="customer-pst" data-aos="zoom-out">CEO & FOUNDER Inc</div>
               </div>
             </div>
             <div class="swiper-slide">
@@ -364,14 +369,14 @@
                   <div title="text" for="star2"></div>
                   <div title="text" for="star1"></div>
                 </div>
-                <p class="customer-review">
+                <p class="customer-review" data-aos="fade-right">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
                   sunt officia alias placeat hic repudiandae! Nihil non facere,
                   cum earum aut accusantium voluptatum officia vero maxime harum
                   est vel cupiditate?
                 </p>
-                <h4>Ama Ampomah</h4>
-                <div class="customer-pst">CEO & FOUNDER Inc</div>
+                <h4 data-aos="zoom-out">Ama Ampomah</h4>
+                <div class="customer-pst" data-aos="zoom-out">CEO & FOUNDER Inc</div>
               </div>
             </div>
           </div>
@@ -380,17 +385,17 @@
       </div>
     </section> 
     <!-- Sub-Footer Section -->
-     <section class="sub-footer">
-    <div class="sub-footer-content">
+     <section class="sub-footer" data-aos="flip-left">
+    <div class="sub-footer-content" data-aos="fade-right">
       <h2>Get Our Promo Code by <br> Subscribing To our Newsletter</h2>
-      <form class="sub-footer-form">
+      <form class="sub-footer-form" data-aos="fade-down-left">
         <input type="email" placeholder="Enter your email" required>
         <button type="submit">Subscribe</button>
       </form>
     </div>
   </section>
   <!-- Footer Section -->
-    <section class="footer-section">
+    <section class="footer-section" data-aos="zoom-out-down">
       <div class="container">
         <div class="row">
           <div class="col-5">
@@ -489,7 +494,9 @@
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <!-- AOS js cnd -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JS link -->
     <script src="./js/index.js"></script>
   </body>
 </html>

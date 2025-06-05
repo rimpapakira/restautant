@@ -8,17 +8,8 @@ menu.addEventListener("click", () =>{
 })
 
 // Scroll animation
-    const entranceCards = document.querySelectorAll('.dish-card');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.2 });
 
-    entranceCards.forEach(card => observer.observe(card));
-
+  AOS.init();
 
 // Review Section
 
