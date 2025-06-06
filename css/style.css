@@ -884,6 +884,10 @@ input {
   }
 
   /* Banner Section */
+  .banner > div > div {
+  align-items: center;
+  flex-wrap: wrap;
+}
   .banner {
     padding: 60px 0;
   }
@@ -1053,10 +1057,14 @@ input {
   }
   .footer-section {
     margin-top: 80px;
+    padding: 10px;
+  }
+  .footer-last-section{
+    padding: 10px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   /* Header Section */
   .nav-logo > img {
     width: 115px;
@@ -1127,6 +1135,10 @@ input {
   }
 
   /* Chef Section */
+  .chef-section{
+    margin-bottom: 0;
+    padding: 40px;
+  }
   .chef-img > img {
     height: 340px;
     width: 265px;
@@ -1137,7 +1149,7 @@ input {
     margin-bottom: 25px;
   }
   .chef-list {
-    margin-bottom: 0;
+    margin-bottom: 15px;
   }
 
   /* Review Section */
@@ -1210,6 +1222,7 @@ input {
   /* Footer Section */
   .footer-section {
     margin-top: 95px;
+    padding: 10px;
   }
   .footer-section > div > div {
     gap: 40px;
@@ -1217,6 +1230,7 @@ input {
   .footer-right {
     gap: 50px;
   }
+
 }
 
 @media screen and (max-width: 320px) {
