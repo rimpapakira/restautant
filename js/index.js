@@ -1,15 +1,15 @@
 // Header Section
 
 const navRight = document.querySelector(".nav-right");
-const menu = document.querySelector(".hamberger")
+const menu = document.querySelector(".hamberger");
 
-menu.addEventListener("click", () =>{
-    navRight.classList.toggle("active");
-})
+menu.addEventListener("click", () => {
+  navRight.classList.toggle("active");
+});
 
 // Scroll animation
 
-  AOS.init();
+AOS.init();
 
 // Review Section
 
@@ -21,4 +21,6 @@ var swiper = new Swiper("#mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  mousewheel: true,
+  keyboard: true,
 });
