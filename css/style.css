@@ -132,6 +132,10 @@ nav {
   font-family: "Inter", sans-serif;
   margin-top: 50px;
   color: var(--bg-color);
+  margin-left: 20px;
+    margin-right: 20px;
+    text-wrap: wrap;
+  
 }
 
 .res-img > img {
@@ -305,7 +309,7 @@ nav {
   right: -40px;
 }
 .col {
-  width: 23%;
+  width: 19%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1090,6 +1094,9 @@ input {
 
   .banner-content > p {
     margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-wrap: wrap;
   }
 
   .banner-btn {
